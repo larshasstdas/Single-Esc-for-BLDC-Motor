@@ -16,4 +16,4 @@ This repository contains the KiCad schematic and PCB layout for a single-channel
 
 ## Bill of Materials
 
-A full BOM with all components, values, and footprints is available in the KiCad project.
+A full BOM with all components, values, and footprints is available in the roject files. The file was generated with AI to directly list part numbers. Some of these parts might not be available in your shops of choice, but they can be swapped with similiar parts.
