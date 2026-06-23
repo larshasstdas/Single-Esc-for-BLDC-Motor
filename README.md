@@ -7,8 +7,7 @@ A custom single-channel ESC (Electronic Speed Controller) for BLDC motors. I wan
 This repository contains the KiCad schematic and PCB layout for a single-channel ESC. The design is based on the DRV8353 gate driver and BSC010N04LSI MOSFETs, controlled by an STM32G431 microcontroller. It includes a buck converter for onboard power regulation, MOSFET-based battery backflow protection, and BEMF sensing for sensorless motor control.
 
 ## Files
-
-.
+```
 ├── KiCad_Files/              # KiCad design source
 │   ├── SingleEsc.kicad_pro   # KiCad project file
 │   ├── SingleEsc.kicad_sch   # Schematic
@@ -28,7 +27,7 @@ This repository contains the KiCad schematic and PCB layout for a single-channel
 │
 ├── Gerber&BOM.zip            # Zipped Gerber, BOM and Pick & Place files
 └── README.md
-
+```
 ## Bill of Materials
 
 A BOM with all components for buying on Digikey is available in the project files. Some parts need to be bought elsewhere for example the XT60 connector.
